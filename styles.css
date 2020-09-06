@@ -95,15 +95,12 @@ footer {
 
   .features > h2 {
     width: 800px;
-    margin-left: 320px;
-    margin-right: 320px;
     margin-top:100px;
+    margin: 0 auto;
   }
 
-  .wrap > h2 {
+/*   .wrap > h2 {
     width: 800px;
-    margin-left: 320px;
-    margin-right: 320px;
-    margin-top:100px; 
-  }
+    margin: 0 auto;
+  } */
 }
