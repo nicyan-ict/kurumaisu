@@ -95,8 +95,8 @@ footer {
 
   .features > h2 {
     width: 800px;
-    margin-top:100px;
-    margin: 0 auto;
+/*     margin-top:100px; */
+    margin: 100px auto 100px;
   }
 
 /*   .wrap > h2 {
