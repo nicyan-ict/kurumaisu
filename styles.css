@@ -6,6 +6,39 @@ body {
   overflow-x: hidden;
 }
 
+#gnav{
+  background-color: rgb(161, 184, 219);
+  }
+
+#gnav ul{
+  display: table;
+  margin: 0 auto;
+  padding: 0;
+  width: 80%;
+  text-align: center;
+  }
+  
+#gnav ul li{
+  display: inline;
+  display: table-cell;
+  min-width: 50px;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc ; 
+  }
+
+  #gnav ul li a{
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    text-decoration: none;
+    color: black;
+  }
+
+  #gnav ul li a:hover{
+    background-color:#F8E750;
+    border-bottom: 5px solid #F8E750;
+  }
+
 .wrap {
   text-align: center;
   padding-top:30px;
@@ -59,13 +92,13 @@ footer {
   text-align: center;
 }
 
-ul {
+.page-contents{
   color: #668ad8;
   border: dashed 2px #668ad8;
   background: #f1f8ff; 
   }
 
-  ul li{
+.page-contents li{
     font-language-override: 1.5;
     padding: 5px 0 15px;
   }
@@ -79,7 +112,7 @@ ul {
 
 /* 目次について */
 
-ul {
+.page-contents{
   width: 800px;
   margin: 100px auto 5px;
   }
