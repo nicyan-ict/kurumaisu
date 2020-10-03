@@ -23,13 +23,13 @@ header p {
   margin: 0;
 }
 
-
 .features img {
   width :100%;
 }
 
 .wrap > h2 {
   border-bottom: solid 5px #325f93;
+  padding: 12px 0;
 }
 
 .features > h2 {
@@ -58,13 +58,35 @@ footer {
   text-align: center;
 }
 
+ul {
+  color: #668ad8;
+  border: dashed 2px #668ad8;
+  background: #f1f8ff; 
+  }
+
+  ul li{
+    font-language-override: 1.5;
+    padding: 5px 0 15px;
+  }
+
+.contents{
+    margin: 10px 0px 0px;
+    font-size: 22px;
+  }
 
 @media (min-width: 900px) {
+
+/* 目次について */
+
+ul {
+  width: 800px;
+  margin: 100px auto 5px;
+  }
+
 
   header .info {
     width: 60%;
     align-self: center;
-    
   }
 
   header .pic {
@@ -88,19 +110,18 @@ footer {
   .features .pic {
     width: 50%;
   }
-  
+
   .features .info {
     width: calc(50% - 32px);
   }
 
   .features > h2 {
     width: 800px;
-
     margin: 100px auto 50px;
   }
 
-/*   .wrap > h2 {
+  .wrap > h2 {
     width: 800px;
-    margin: 0 auto;
-  } */
+    margin: 0px auto 50px;
+  }
 }
