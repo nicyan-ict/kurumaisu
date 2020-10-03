@@ -120,7 +120,7 @@ footer {
 /* 目次について */
 
 .page-contents{
-  width: 800px;
+  width: 1200px;
   margin: 100px auto 5px;
   }
 
@@ -135,7 +135,7 @@ footer {
   }
 
   .features .container {
-    width: 800px;
+    width: 1200px;
     margin: 0 auto;
   }
   
@@ -157,12 +157,12 @@ footer {
   }
 
   .features > h2 {
-    width: 800px;
+    width: 1200px;
     margin: 100px auto 50px;
   }
 
   .wrap > h2 {
-    width: 800px;
+    width: 1200px;
     margin: 0px auto 50px;
   }
 }
