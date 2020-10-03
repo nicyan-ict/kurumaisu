@@ -38,6 +38,12 @@ body {
     background-color:#F8E750;
     border-bottom: 5px solid #F8E750;
   }
+  img {
+    width:100%;
+    max-width: 100%;
+    height:auto;
+    float: left;
+    }
 
 .wrap {
   text-align: center;
